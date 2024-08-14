@@ -1,6 +1,6 @@
 
 
-const HooksApp = () => {
+export const HooksApp = () => {
   return (
     <div>
       <h1>Hooks app</h1>
@@ -8,4 +8,4 @@ const HooksApp = () => {
   )
 }
 
-export default HooksApp
+

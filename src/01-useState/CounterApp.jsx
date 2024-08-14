@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const CounterApp = () => {
+export const CounterApp = () => {
     const [counter, setCounter] = useState({
         counter1: 10,
         counter2: 20,
@@ -32,5 +32,3 @@ const CounterApp = () => {
     </div>
   )
 }
-
-export default CounterApp
