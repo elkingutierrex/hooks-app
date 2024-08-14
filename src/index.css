@@ -5,3 +5,8 @@ body{
 button{
     margin-right: 10px;
 }
+
+.component{
+    margin-top: 3rem;
+    border-top: 2px solid #333;
+}

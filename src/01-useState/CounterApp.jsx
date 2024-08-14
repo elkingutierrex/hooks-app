@@ -18,16 +18,18 @@ const CounterApp = () => {
     }
 
   return (
-    <>
-        <h3>Counter1: {counter1} </h3>
-        <h3>Counter2: {counter2} </h3>
-        <h3>Counter3: {counter3} </h3>
+    <div className="component">
+        <h3>Counter</h3>
+        
+        <h5>Counter1: {counter1} </h5>
+        <h5>Counter2: {counter2} </h5>
+        <h5>Counter3: {counter3} </h5>
         <hr />
 
         <button onClick={ onAddCounter1 }
                 className="btn btn-warning"> +1 </button>
       
-    </>
+    </div>
   )
 }
 
